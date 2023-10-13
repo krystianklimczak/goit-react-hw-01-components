@@ -35,7 +35,7 @@ function FriendListItem({avatar, name, isOnline}) {
 }
 
 FriendList.propTypes = {
-    friends: PropTypes.object.isRequired,
+    friends: PropTypes.arrayOf(PropTypes.object).isRequired,
   };
 
 FriendListItem.propTypes = {
