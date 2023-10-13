@@ -1,0 +1,71 @@
+.profile {
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 5px 5px 19px -5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 5px 5px 19px -5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 5px 5px 19px -5px rgba(0,0,0,0.5);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    padding-bottom: 25px;
+}
+
+.avatar {
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.name {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.tag {
+    color: grey;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.location {
+    color: grey;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.stats {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.stats li {
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.stats li:last-child {
+    border-right: none;
+}
+
+.label {
+    color: grey;
+}
+
+.quantity {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
