@@ -2,6 +2,9 @@
     background-color: white;
     border-radius: 7px;
     text-align: center;
+    box-shadow: 5px 5px 19px -5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 5px 5px 19px -5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 5px 5px 19px -5px rgba(0,0,0,0.5);
 }
 
 .title {
@@ -39,12 +42,4 @@
 
 .item:first-child {
     border-bottom-left-radius: 7px;
-}
-
-.label {
-
-}
-
-.percentage {
-
 }
