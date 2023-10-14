@@ -10,28 +10,53 @@ import TransactionHistory from './transation-history/TransactionHistory';
 export const App = () => {
   return (
     <>
-
-      <Profile
-        username={user.username}
-        tag={user.tag}
-        location={user.location}
-        avatar={user.avatar}
-        stats={user.stats}
-      />
-
-      <Statistics
-       title="upload stats"
-       stats={data}
-      />
-
-      <FriendList
-       friends={friends}
-      />
-      
-      <TransactionHistory 
-       transactions={transactions}
-      />
-
+      <ul className="collapsible">
+      <li>
+        <div className="collapsible-header"><i className="material-icons">whatshot</i>Profile</div>
+        <div className="collapsible-body">
+          <span>
+            <Profile
+              username={user.username}
+              tag={user.tag}
+              location={user.location}
+              avatar={user.avatar}
+              stats={user.stats}
+            />
+          </span>
+        </div>
+      </li>
+      <li>
+        <div className="collapsible-header"><i className="material-icons">whatshot</i>Statistics</div>
+        <div className="collapsible-body">
+          <span>
+            <Statistics
+              title="upload stats"
+              stats={data}
+            />
+          </span>
+        </div>
+      </li>
+      <li>
+        <div className="collapsible-header"><i className="material-icons">whatshot</i>FriendList</div>
+        <div className="collapsible-body">
+          <span>
+            <FriendList
+              friends={friends}
+            />
+          </span>
+        </div>
+      </li>
+      <li>
+        <div className="collapsible-header"><i className="material-icons">whatshot</i>Transaction History</div>
+        <div className="collapsible-body">
+          <span>
+            <TransactionHistory 
+              transactions={transactions}
+            />
+          </span>
+        </div>
+      </li>
+    </ul>
     </>
   );
 };
