@@ -1,4 +1,7 @@
+// css modules
 import css from "./Statistics.module.css";
+
+// proptypes
 import PropTypes from "prop-types";
 
 const getRandomColor = () => {
