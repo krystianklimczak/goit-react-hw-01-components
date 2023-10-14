@@ -5,6 +5,7 @@
     -webkit-box-shadow: 5px 5px 19px -5px rgba(0,0,0,0.5);
     -moz-box-shadow: 5px 5px 19px -5px rgba(0,0,0,0.5);
     text-align: center;
+    max-width: 400px;
 }
 
 .description {

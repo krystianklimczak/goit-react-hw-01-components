@@ -14,7 +14,7 @@ export const App = () => {
       <li>
         <div className="collapsible-header"><i className="material-icons">whatshot</i>Profile</div>
         <div className="collapsible-body">
-          <span>
+          <span className="flex">
             <Profile
               username={user.username}
               tag={user.tag}
@@ -28,7 +28,7 @@ export const App = () => {
       <li>
         <div className="collapsible-header"><i className="material-icons">whatshot</i>Statistics</div>
         <div className="collapsible-body">
-          <span>
+          <span className="flex">
             <Statistics
               title="upload stats"
               stats={data}
@@ -39,7 +39,7 @@ export const App = () => {
       <li>
         <div className="collapsible-header"><i className="material-icons">whatshot</i>FriendList</div>
         <div className="collapsible-body">
-          <span>
+          <span className="flex">
             <FriendList
               friends={friends}
             />
@@ -49,7 +49,7 @@ export const App = () => {
       <li>
         <div className="collapsible-header"><i className="material-icons">whatshot</i>Transaction History</div>
         <div className="collapsible-body">
-          <span>
+          <span className="flex">
             <TransactionHistory 
               transactions={transactions}
             />

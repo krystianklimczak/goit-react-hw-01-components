@@ -48,3 +48,12 @@ div#root {
   gap: 50px;
 }
 
+.collapsible {
+  width: 100%;
+  max-width: 800px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
